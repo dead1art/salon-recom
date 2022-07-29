@@ -12,18 +12,22 @@ import Gallery from './components/Navbar/Gallery';
 import LoginSignUp from './components/Navbar/Login-SignUp';
 
 
+
+
 function App() {
   return (
+    <>
     <Router>
      <Navbar/>
       <Routes>
-        <Route path='/' element={ <Home/> } />
-        <Route path='/About' element={ <About/> } />
-        <Route path='DailyDeals' element={ <DailyDeals/> } />
-        <Route path='/Gallery' element={ <Gallery/>} />
-        <Route path='/Login-SignUp' element={ <LoginSignUp/>} />
+        <Route exact path='/Home' element={<Home />} />
+        <Route path='/About' element={<About />} />
+        <Route path='DailyDeals' element={<DailyDeals />} />
+        <Route path='/Gallery' element={<Gallery />} />
+        <Route path='/Login-SignUp' element={<LoginSignUp />} />
       </Routes>
     </Router>
+    </>
   );
 }
 

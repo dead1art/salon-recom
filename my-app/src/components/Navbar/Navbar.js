@@ -8,13 +8,6 @@ export const Navbar = () => {
       <img src='/images/logo.svg' alt='Logo'/>
       </NavLink>
       <Bars />
-      {/* <HamBtn>
-        <NavLink to="/Professional" activestyle>Professional</NavLink>
-        <NavLink to="/DailyDeals" activestyle>Daily Deals</NavLink>
-        <NavLink to="/Gallery" activestyle>Gallery</NavLink>
-        <NavLink to="/about" activestyle>About</NavLink>
-        <NavBtnLink to="/Login-SignUp">Login/Sign Up</NavBtnLink>
-          </HamBtn> */}
       <NavMenu>
         <NavLink to="/Home" activestyle>
           Home
