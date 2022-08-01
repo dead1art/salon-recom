@@ -1,15 +1,15 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-//Components
-import  Navbar from './components/Navbar/Navbar';
 
-//Navbar components
-import Home from './components/Navbar/Home';
-import About from './components/Navbar/About';
-import DailyDeals from './components/Navbar/DailyDeals';
-import Gallery from './components/Navbar/Gallery';
-import LoginSignUp from './components/Navbar/Login-SignUp';
+import  Navbar from './components/Navbar';
+
+
+import Home from './components/Home';
+import About from './components/About';
+import DailyDeals from './components/DailyDeals';
+import Gallery from './components/Gallery';
+import LoginSignUp from './components/Login-SignUp';
 
 
 
