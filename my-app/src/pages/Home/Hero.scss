@@ -1,0 +1,61 @@
+.hero-container {
+  align-items: center;
+  background-color: #1e1919;
+  background-image: url("../../assets/Hero2.png");
+  background-position-y: -95px;
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  justify-content: space-between;
+  margin-bottom: 1.5625rem;
+  padding: 1rem;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  padding-top: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Location-Input {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url("../../assets/search.png");
+  color: #3d3939;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 5% center;
+  border: none;
+  font-size: 14px;
+  margin-top: -22px;
+  margin-bottom: -23px;
+  min-height: 43px;
+  width: 260px;
+  font-family: Raleway;
+  padding: 0 30px 0 40px;
+  border-radius: 2px;
+}
+
+.button_1 {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  border: none;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 14px;
+  background: #000000;
+  padding: 15px 20px 15px 20px;
+  text-decoration: none;
+  margin-bottom: 94px;
+  border-radius: 2px;
+}
+
+.button_1:hover {
+  background: #d8a7a7;
+  text-decoration: none;
+}

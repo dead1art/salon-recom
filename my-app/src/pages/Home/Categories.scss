@@ -1,0 +1,54 @@
+.title {
+  font-weight: 300s;
+  font-size: 32px;
+  line-height: 50px;
+  padding-left: 159px;
+}
+
+.Line {
+  position: absolute;
+  width: 1262px;
+  height: 0px;
+  left: 124px;
+  bottom: 92px;
+}
+
+.Categories-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3.875rem;
+  max-width: 81.375rem;
+  margin: 0 auto;
+  padding-top: 4.375rem;
+  padding-bottom: 3.375rem;
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+}
+
+.item {
+  background: #2c2727;
+  width: 176px;
+  height: 160px;
+  border-radius: 0.3125rem;
+  overflow: hidden;
+  box-shadow: 0px 3px 12px rgb(0 0 0 / 15%);
+  transition: all 150ms ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.Categories_image {
+  width: 130px;
+  margin-left: 23px;
+}
+
+.image_title {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 2px;
+  font-weight: 100;
+}

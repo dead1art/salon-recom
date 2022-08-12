@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "Category": "Nails",
+    "Card-image": "https://cdn-icons-png.flaticon.com/512/3461/3461972.png"
+  },
+  {
+    "id": 2,
+    "Category": "Haircut",
+    "Card-image": "https://cdn-icons-png.flaticon.com/512/2983/2983253.png"
+  },
+  {
+    "id": 3,
+    "Category": "Men's Haircut",
+    "Card-image": "https://cdn-icons-png.flaticon.com/512/3615/3615788.png"
+  },
+  {
+    "id": 4,
+    "Category": "Kids",
+    "Card-image": "https://cdn-icons-png.flaticon.com/512/163/163847.png"
+  },
+  {
+    "id": 5,
+    "Category": "Curling",
+    "Card-image": "https://cdn-icons-png.flaticon.com/512/824/824806.png"
+  },
+  {
+    "id": 6,
+    "Category": "Eyelashes",
+    "Card-image": "https://cdn-icons-png.flaticon.com/512/3790/3790242.png"
+  },
+  {
+    "id": 7,
+    "Category": "Bridal",
+    "Card-image": "https://cdn-icons-png.flaticon.com/512/3074/3074067.png"
+  },
+  {
+    "id": 8,
+    "Category": "MakeUp",
+    "Card-image": "https://cdn-icons-png.flaticon.com/512/1940/1940922.png"
+  },
+  {
+    "id": 9,
+    "Category": "Straightening",
+    "Card-image": "https://cdn-icons-png.flaticon.com/512/8166/8166791.png"
+  },
+  {
+    "id": 10,
+    "Category": "Spa",
+    "Card-image": "https://cdn-icons-png.flaticon.com/512/4614/4614143.png"
+  }
+]

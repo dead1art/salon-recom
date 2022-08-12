@@ -1,0 +1,103 @@
+.acc-page {
+  padding: 50px 0;
+}
+
+.form-container {
+  background: #ffff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  margin-top: 60px;
+  border: 4px solid #000000;
+  overflow: hidden;
+}
+
+.form-container span {
+  font-weight: bold;
+  padding: 10px 4px;
+  color: #000000;
+  cursor: pointer;
+  width: 135px;
+  display: inline-block;
+}
+
+.form-btn {
+  display: inline-block;
+}
+
+.form-container form {
+  max-width: 270px;
+  padding: 0px 19px;
+  position: absolute;
+  top: 87px;
+  transition: transform 1s;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  font-family: "Raleway";
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  background: #d8a7a7;
+  color: #ffffff;
+}
+
+form .btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+  font-family: "Raleway";
+  background: black;
+  color: white;
+  font-size: 14px;
+}
+
+form .btn:focus {
+  outline: none;
+}
+
+#loginform {
+  left: 0px;
+}
+
+#Regform {
+  left: 0;
+}
+
+form a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #494848;
+}
+
+// #indicator {
+//     width: 100px;
+//     border: none;
+//     background: #7a4241;
+//     height: 3px;
+//     margin-top: 8px;
+//     margin-left: 53px;
+//     // transform: translate(100px);
+//     // transition: transform 1s;
+
+// }
+
+button {
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  width: 120px;
+  cursor: pointer;
+}
+
+label {
+  display: flex;
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+}

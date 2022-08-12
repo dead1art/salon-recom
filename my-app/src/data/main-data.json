@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "Salon-name": "Decadence Hair & Beauty",
+    "Category": ["Nails", "Haircut"],
+    "location": "6 N Court St, 1A, Westminster,Md, 21157",
+    "Ratings": "4.8",
+    "Description": "Decadence Hair & Beauty is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hair_Salon_Stations.jpg"
+  },
+  {
+    "id": 2,
+    "Salon-name": "un|Basic",
+    "Category": ["Kids", "Haircut"],
+    "location": "London (Earlsfield), England",
+    "Ratings": "3.8",
+    "Description": "Relax and unwind in our green and clean nail space concept. Our carefully curated products provides safer treatments by choosing vegan and cruelty free, toxin free gels and nail polishes without compromising on quality. We offer impeccable manicure and pedicure from quick fix to a truly luxurious treat and awesome nail arts",
+    "Salon-image": "https://sulcdn.azureedge.net/biz-live/img/-heaven-rose-professional-unisex-salon--5134089-70620639.jpeg"
+  },
+  {
+    "id": 3,
+    "Salon-name": "Blush + Blow Parsons Green",
+    "Category": ["Bridal", "Haircut", "MakeUp"],
+    "location": "197 New King's Road, London",
+    "Ratings": "4.9",
+    "Description": "Blush + Blow London was founded by Bridget OKeeffe, a makeup artist and entrepreneur 2016. She wanted to create a place with excellent customer service, that has great value for money with a fun, unique experience. As an SW6 resident herself, she knew exactly what was missing and so the creation of Blush + Blow was masterminded. Offering the best of hair, skin, aesthetics, beauty and more...all under one, gorgeously decorated, luxury salon!",
+    "Salon-image": "https://www.shoutlo.com/uploads/articles/item-header-img-femina-plus-luxe2.jpeg"
+  },
+  {
+    "id": 4,
+    "Salon-name": "The Hair Ninja Salon",
+    "Category": ["Straightening", "Spa", "Curling"],
+    "location": "Cortez Rd W Bradenton, FL 34210",
+    "Ratings": "3.5",
+    "Description": "The Hair Ninja Salon is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://static.wixstatic.com/media/7a3277_11e1b26258b84758b0ab0400da2ac5d9~mv2.jpg/v1/fill/w_640,h_650,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7a3277_11e1b26258b84758b0ab0400da2ac5d9~mv2.jpg"
+  },
+  {
+    "id": 5,
+    "Salon-name": "Bond",
+    "Category": ["Haircut"],
+    "location": "44b Cheshire Street, London",
+    "Ratings": "4.2",
+    "Description": "We're here to make women feel amazing At Bond, we celebrate individuality and the personalities of the cool community of women who choose us. To create a look that's right for you, we consider the health of your hair and its texture, as well as your skin tone, face shape and lifestyle, so the end result feels like you and looks fabulous—in and out of the salon chair. Allow us to welcome you with a drink, and make you feel instantly at home.",
+    "Salon-image": "https://images.fresha.com/locations/location-profile-images/213634/486133/a5bc3a31-aeec-43be-91ea-a692070d9a8f.jpg?class=width-large"
+  },
+  {
+    "id": 6,
+    "Salon-name": "The She Shack",
+    "Category": ["Nails", "Eyelashes"],
+    "location": "Suite 102, Washington, 20018",
+    "Ratings": "3.6",
+    "Description": "The She Shack is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://images.squarespace-cdn.com/content/v1/5e0122bedaf64a5d9c777266/1602804594717-VTX990S1LM5S2Z23BG5X/NewSpace2.jpg?format=1000w"
+  },
+  {
+    "id": 7,
+    "Salon-name": "Tresses by Jas",
+    "Category": ["Kids", "Haircut", "MakeUp"],
+    "location": "FL 2, Washington, 20009",
+    "Ratings": "4.9",
+    "Description": "Come and get your hair assessed by celebrity hairstylist Jasmine. She will tell you the steps you need to take to start your health hair journey!",
+    "Salon-image": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2Fsb24lMjBpbnRlcmlvcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+  },
+  {
+    "id": 8,
+    "Salon-name": "Diamond creates",
+    "Category": ["Bridal", "MakeUp"],
+    "location": "High street, 3337, Melton",
+    "Ratings": "4.5",
+    "Description": "Diamond creates is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hair_Salon_Stations.jpg"
+  },
+  {
+    "id": 9,
+    "Salon-name": "Glamour Doll Makeovers",
+    "Category": ["Spa"],
+    "location": "BLACK ROCK NORTH, 3193, Beaumaris",
+    "Ratings": "4.1",
+    "Description": "Glamour Doll Makeovers is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/61/d0/80/getlstd-property-photo.jpg?w=500&h=400&s=1"
+  },
+  {
+    "id": 10,
+    "Salon-name": "Belle Beauty Lounge",
+    "Category": ["Kids", "Haircut"],
+    "location": "Albany Hwy, 6107, Perth",
+    "Ratings": "4.7",
+    "Description": "Belle Beauty Lounge is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://images.squarespace-cdn.com/content/v1/5463ecd5e4b02e95ad98b4f6/1633189059273-S6J1BFCPJLZUFT3R6Q31/P1024244.jpg?format=2500w"
+  },
+  {
+    "id": 11,
+    "Salon-name": "ELP Barbershop",
+    "Category": ["Men's Haircut", "Haircut", "Nails"],
+    "location": "67 Amwell Street, London",
+    "Ratings": "4.4",
+    "Description": "ELP is a contemporary Barbershop based in Angel, London. Find us at No67 Amwell Street. We provide haircuts, wet shaves and a beer. Conveniently located a short walk from both Angel and Kings Cross tube stations. Launching in 2013 our purpose is to provide the best cuts in town within a relaxed space where everyone feels welcome.",
+    "Salon-image": "https://images.fresha.com/locations/location-profile-images/32915/236160/62afa2af-ae44-4784-adf5-dc26a059514a-_ELP_Barbershop.png?class=width-large"
+  },
+  {
+    "id": 12,
+    "Salon-name": "Daniela Melo Nails",
+    "Category": ["Eyelashes", "Nails"],
+    "location": "Glenelg ave, 4218, Gold Coast",
+    "Ratings": "3.5",
+    "Description": "Daniela Melo Nails is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://cdn.vox-cdn.com/thumbor/zsHefqkY2uFLc1RXQupby6K3A7Y=/0x0:3900x2555/1200x800/filters:focal(1638x988:2262x1612)/cdn.vox-cdn.com/uploads/chorus_image/image/67715186/GettyImages_1227665485.0.jpg"
+  },
+  {
+    "id": 13,
+    "Salon-name": "Hair Revolution",
+    "Category": ["Straightening", "Curling", "MakeUp"],
+    "location": "Main St S, L6Y 1N7, Brampton",
+    "Ratings": "4.0",
+    "Description": "Hair Revolution is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://lightingequipmentsales.com/wp-content/uploads/2018/04/Salon-Lighting-740x416.jpg"
+  },
+  {
+    "id": 14,
+    "Salon-name": "Beautee by Ash",
+    "Category": ["Haircut", "MakeUp"],
+    "location": "3445 Burgess Cres, Mississauga",
+    "Ratings": "3.4",
+    "Description": "Beautee by Ash is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://i.pinimg.com/originals/26/73/b1/2673b1bde9470cd7ee3512ef864694e2.jpg"
+  },
+  {
+    "id": 15,
+    "Salon-name": "Paray Glam",
+    "Category": ["Straightening", "MakeUp"],
+    "location": "Mount Pleasant, L7A 0R5, Brampton",
+    "Ratings": "4.1",
+    "Description": "Paray Glam is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://i.pinimg.com/originals/99/36/03/9936039e7234552c3e1d1c8a6aebb78e.jpg"
+  },
+  {
+    "id": 16,
+    "Salon-name": "Omar Williams Barbershop",
+    "Category": ["Men's Haircut", "Haircut"],
+    "location": "11 Macdonell Street, N1H 2Z2, Guelph",
+    "Ratings": "4.0",
+    "Description": "Omar Williams Barbershop is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://media.istockphoto.com/photos/hairdressers-cutting-hair-of-clients-in-salon-picture-id1030251504?k=20&m=1030251504&s=612x612&w=0&h=vZHCCKNNfg5lxNYSVNYGcfjCtEuL8h8rMAC4NwAS_YU="
+  },
+  {
+    "id": 17,
+    "Salon-name": "K.Magtolis Hair Studio",
+    "Category": ["Kids", "Haircut"],
+    "location": "Upper James St, 736, Hamilton",
+    "Ratings": "3.8",
+    "Description": "K.Magtolis Hair Studio is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://ledworld.com.au/wp-content/uploads/2017/02/Paris-Rose-Hair-Salon-5.jpg"
+  },
+  {
+    "id": 18,
+    "Salon-name": "DASH OF BEAUTY",
+    "Category": ["Spa", "Nails"],
+    "location": "T1Y 2K9, Calgary 5467",
+    "Ratings": "4.6",
+    "Description": "DASH OF BEAUTY is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://i.pinimg.com/originals/1c/a2/d3/1ca2d3a50c8f44454776031b6457e44c.jpg"
+  },
+  {
+    "id": 19,
+    "Salon-name": "Sunflowers & Roses Beauty Studio",
+    "Category": ["Bridal", "Straightening", "Curling"],
+    "location": "1458 weber street e, Kitchener",
+    "Ratings": "3.8",
+    "Description": "Sunflowers & Roses Beauty Studio is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://i.pinimg.com/originals/b9/4c/1a/b94c1ac60a90d60614f46bc69be4a65a.jpg"
+  },
+  {
+    "id": 20,
+    "Salon-name": "Ebony Beauty",
+    "Category": ["Bridal", "MakeUp"],
+    "location": "812 decarie, H4L 3M1, Montréal",
+    "Ratings": "4.8",
+    "Description": "Ebony Beauty is an exclusive boutique salon in the heart of Bloomsbury providing a warm, welcoming and pampering retreat from the noise of the city. We have the most experienced and friendly team of hairstylists, colourists, beauty therapists and front of house staff who are proud to bring you our personalised five-star service. You will feel fabulous from the moment you walk through the door.",
+    "Salon-image": "https://lokaci.com/images/salon/salon-image.jpg"
+  }
+]
