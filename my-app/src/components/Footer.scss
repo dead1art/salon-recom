@@ -1,4 +1,52 @@
 .footer {
+  display: block;
+  height: 230px;
   width: auto;
-  background-color: #ebebeb;
+  background-color: rgb(3 3 3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  &__heading {
+    font-size: 20px;
+    color: #cfcccc;
+    font-weight: 900;
+  }
+
+  &__Socials {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+}
+
+.Instagram {
+  width: 20px;
+  height: 20px;
+}
+
+.Facebook {
+  width: 20px;
+  height: 20px;
+  margin-left: 70px;
+}
+
+.Twitter {
+  width: 20px;
+  height: 20px;
+  margin-left: 70px;
+}
+
+.Reddit {
+  width: 20px;
+  height: 20px;
+  margin-left: 70px;
+}
+
+.footer_Copyright {
+  margin-bottom: -70px;
+  font-size: 10px;
+  color: grey;
+  font-weight: 700;
 }

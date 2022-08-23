@@ -19,50 +19,51 @@
   padding-left: 3.5rem;
 }
 
-.Card {
+.recomCard {
   width: 250px;
   height: 235px;
   background-color: rgb(248 246 246);
+  box-shadow: 26px 26px 52px #c1c1c1, -26px -26px 52px #ffffff;
   border-radius: 7px;
   line-height: 22px;
   text-decoration: none;
 }
 
-.Card_image {
+.cardImage {
   width: 250px;
   height: 155px;
 }
 
-.Card_image:hover {
+.cardImage:hover {
   opacity: 0.7;
 }
 
-.Card_title {
+.cardTitle {
   font-weight: 600;
   color: #2c2727;
   font-size: 18px;
   padding-left: 10px;
 }
 
-.Card_loc {
+.cardLoc {
   font-weight: 500;
   font-size: 13px;
   color: #a39999;
   padding-left: 10px;
 }
 
-.Rating {
+.cardRating {
   display: flex;
   margin-left: 10px;
   color: #2c2727;
 }
 
-.Star {
+.cardStar {
   width: 20px;
   height: 20px;
 }
 
-.Card_rating {
+.recomRating {
   font-weight: 600;
   margin-left: 5px;
 }

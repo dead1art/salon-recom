@@ -1,0 +1,58 @@
+.page-container {
+  min-height: 465px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-images {
+  height: 460px;
+}
+
+.page-details {
+  height: 460px;
+  width: 500px;
+  padding: 32px;
+  background-color: #e0ece8;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.page-location {
+  font-size: 20px;
+  padding-top: 15px;
+  color: #6a6a6a;
+}
+
+.page-rating {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.page-star {
+  width: 25px;
+  height: 25px;
+}
+
+.page-ratings {
+  font-size: 20px;
+  padding-left: 3px;
+}
+
+.book-now {
+  width: 379px;
+  height: 51px;
+  font-size: 18px;
+  color: rgb(226, 226, 226);
+  background-color: rgb(27, 26, 26);
+  font-family: "Raleway", sans-serif;
+  padding-top: 11px;
+  font-weight: 600;
+  border-radius: 5px;
+}

@@ -1,33 +1,47 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Recommended.scss";
-import SalonData from "../../data/Salon-data.json";
 import star from "../../assets/star.png";
+import Page from "../singlePage/Page";
+import axios from "axios";
 
 export const Recommended = () => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    loadPageData();
+  }, []);
+
+  const loadPageData = async () => {
+    const response = await axios.get(
+      "http://localhost:3006/mainData?_start=0&_end=8"
+    );
+    if (response.status === 200) {
+      setData(response.data);
+    } else {
+      console.log("Something went wrong");
+    }
+  };
+
+  console.log("data", data);
+
   return (
     <div>
       <div className="title">Recommended</div>
       <hr className="Line2"></hr>
       <div className="Recommended-container">
-        {SalonData &&
-          SalonData.map((Recommendation) => {
-            return (
-              <a href="#" className="Card" key={Recommendation.id}>
-                <img
-                  className="Card_image"
-                  src={Recommendation["Salon-image"]}
-                  alt="/"
-                />
-                <br />
-                <div className="Card_title">{Recommendation["Salon-name"]}</div>
-                <div className="Card_loc">{Recommendation.location}</div>
-                <div className="Rating">
-                  <img src={star} className="Star" />
-                  <div className="Card_rating">{Recommendation.Ratings}</div>
-                </div>
-              </a>
-            );
-          })}
+        {data &&
+          data.map((item, id) => (
+            <a href="Page" className="recomCard" key={id}>
+              <img className="cardImage" src={item.SalonImage} alt="/" />
+              <br />
+              <div className="cardTitle">{item.SalonName}</div>
+              <div className="cardLoc">{item.location}</div>
+              <div className="cardRating">
+                <img src={star} className="cardStar" />
+                <div className="recomRating">{item.Ratings}</div>
+              </div>
+            </a>
+          ))}
       </div>
     </div>
   );

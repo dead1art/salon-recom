@@ -9,6 +9,7 @@ import About from "./components/ui/About";
 import DailyDeals from "./components/ui/DailyDeals";
 import Gallery from "./components/ui/Gallery";
 import LoginSignUp from "./components/ui/Login-SignUp";
+import Page from "./pages/singlePage/Page";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="DailyDeals" element={<DailyDeals />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Login-SignUp" element={<LoginSignUp />} />
+          <Route path="/Page" element={<Page />} />
         </Routes>
         <Footer />
       </Router>
