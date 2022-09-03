@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./Categories.scss";
+import "../../../src/mixins.scss";
 import CategoriesData from "../../data/Categories-Data.json";
 
 export const Categories = () => {
@@ -9,7 +10,7 @@ export const Categories = () => {
   return (
     <div>
       <div className="title">Top Categories</div>
-      <hr className="Line"></hr>
+      {/* <hr className="Line"></hr> */}
       <div className="Categories-container">
         {CategoriesData &&
           CategoriesData.map((category) => {

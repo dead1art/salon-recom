@@ -1,3 +1,5 @@
+@import "../../mixins.scss";
+
 .hero-container {
   align-items: center;
   background-color: #1e1919;
@@ -9,6 +11,14 @@
   justify-content: space-between;
   margin-bottom: 1.5625rem;
   padding: 1rem;
+
+  @include breakpoint-down(medium) {
+    padding: 20px;
+  }
+
+  @include breakpoint-down(small) {
+    padding: 20px;
+  }
 }
 
 h1 {

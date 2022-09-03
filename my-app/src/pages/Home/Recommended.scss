@@ -1,28 +1,24 @@
-.Line2 {
-  position: absolute;
-  width: 1262px;
-  height: 0px;
-  left: 124px;
-  bottom: -460px;
+.background {
+  background-color: hsl(220, 16%, 96%);
 }
 
 .Recommended-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 3.875rem;
+  grid-template-columns: repeat(auto-fit, 18rem);
+  justify-content: center;
+  gap: 0.875rem;
   max-width: 81.375rem;
   margin: 0 auto;
   padding-top: 4.375rem;
   padding-bottom: 3.375rem;
-  padding-right: 3.5rem;
-  padding-left: 3.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .recomCard {
-  width: 250px;
-  height: 235px;
-  background-color: rgb(248 246 246);
+  width: 285px;
+  height: 240px;
+  background-color: rgb(248, 246, 246);
   box-shadow: 26px 26px 52px #c1c1c1, -26px -26px 52px #ffffff;
   border-radius: 7px;
   line-height: 22px;
@@ -30,8 +26,8 @@
 }
 
 .cardImage {
-  width: 250px;
-  height: 155px;
+  width: 285px;
+  height: 163px;
 }
 
 .cardImage:hover {

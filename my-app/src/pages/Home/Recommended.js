@@ -25,9 +25,9 @@ export const Recommended = () => {
   console.log("data", data);
 
   return (
-    <div>
+    <div className="background">
       <div className="title">Recommended</div>
-      <hr className="Line2"></hr>
+      {/* <hr className="Line2"></hr> */}
       <div className="Recommended-container">
         {data &&
           data.map((item, id) => (

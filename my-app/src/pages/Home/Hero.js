@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.scss";
+import "../../../src/mixins.scss";
 
 export const Hero = () => {
   return (

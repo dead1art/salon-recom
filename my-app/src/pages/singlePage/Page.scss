@@ -13,7 +13,7 @@
   height: 460px;
   width: 500px;
   padding: 32px;
-  background-color: #e0ece8;
+  background-color: #e7f2f8;
   margin-left: 20px;
   text-align: center;
 }
@@ -55,4 +55,106 @@
   padding-top: 11px;
   font-weight: 600;
   border-radius: 5px;
+}
+
+.Info-container {
+  min-height: 465px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.Info {
+  width: 100%;
+  padding: 40px 50px;
+}
+
+.Info-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.Info-detail {
+  font-size: large;
+  line-height: 25px;
+  font-weight: 400;
+  color: #595757;
+}
+
+.Info-location {
+  width: 50%;
+  padding: 40px 40px;
+}
+
+.InfoLoc-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.InfoLoc-cont {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.InfoLoc-cont2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.InfoLoc-address {
+  font-size: large;
+  line-height: 25px;
+  font-weight: 400;
+  color: #595757;
+}
+
+.Info-icon {
+  width: 100px;
+  height: 80px;
+  margin-left: 12px;
+}
+
+.See-Direct {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(3 95 251);
+  margin-top: -18px;
+  text-decoration: none;
+}
+
+.See-Direct:hover {
+  transition: 150ms ease-in-out;
+  color: pink;
+}
+
+.Divide {
+  width: 100%;
+}
+
+.Timings {
+  display: flex;
+  align-items: center;
+}
+
+.Time-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.Open-now {
+  padding-left: 10px;
+}
+
+.Time {
+  padding-left: 7px;
+}
+
+.Time-accordin {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
 }
