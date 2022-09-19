@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Page.scss";
 import star from "../../assets/star.png";
 import mainData from "../../data/main-data.json";
+import Review from "../singlePage/Review";
 import axios from "axios";
 import map from "../../assets/map.png";
 import clock from "../../assets/clock.png";
@@ -69,6 +70,7 @@ const Page = () => {
           </div>
         </div>
       </div>
+      <Review />
     </div>
   );
 };

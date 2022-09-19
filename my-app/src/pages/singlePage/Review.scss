@@ -1,0 +1,123 @@
+.cusReview {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.revName {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  padding: 40px 40px;
+}
+
+.revContainer {
+  display: flex;
+  flex-direction: rows;
+}
+
+.revFilter {
+  display: flex;
+  border-radius: 16px;
+  -webkit-box-align: center;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  //   widht: 370px;
+  //   height: 400px;
+  padding: 0px;
+  padding: 32px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  box-shadow: rgb(16 25 40 / 8%) 0px 4px 8px 0px;
+  background: white;
+  overflow: hidden;
+}
+
+.rateStars {
+  display: flex;
+}
+
+.rateStar1 {
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 2px;
+}
+
+.rateStar2 {
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 2px;
+}
+
+.rateStar3 {
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 2px;
+}
+
+.rateStar4 {
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 2px;
+}
+
+.rateStar5 {
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.rateSummary {
+  display: flex;
+  margin-top: 2px;
+}
+
+.rateScore {
+  letter-spacing: 0px;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  display: inline;
+  color: rgb(16, 25, 40);
+}
+
+.rateNumber {
+  letter-spacing: 0px;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(135, 140, 147);
+  margin-left: 8px;
+}
+
+.buttonHead {
+  padding-top: 30px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.reviewButton {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 250, 250);
+  background: black;
+  border-radius: 4px;
+  padding: 20px;
+  width: 330px;
+  border: none;
+  margin-top: 15px;
+}

@@ -10,6 +10,7 @@ import DailyDeals from "./components/ui/DailyDeals";
 import Gallery from "./components/ui/Gallery";
 import LoginSignUp from "./components/ui/Login-SignUp";
 import Page from "./pages/singlePage/Page";
+import ReviewForm from "./pages/singlePage/ReviewForm";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Login-SignUp" element={<LoginSignUp />} />
           <Route path="/Page" element={<Page />} />
+          <Route path="/ReviewForm" element={<ReviewForm />} />
         </Routes>
         <Footer />
       </Router>
