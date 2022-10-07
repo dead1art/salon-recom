@@ -88,3 +88,17 @@
 input:focus {
   outline: none;
 }
+
+.searchButt {
+  width: 100px;
+  height: 43px;
+  font-size: 15px;
+  color: rgb(226, 226, 226);
+  background-color: rgb(27, 26, 26);
+  font-family: "Raleway", sans-serif;
+  padding-top: 10px;
+  padding-left: 25px;
+  font-weight: 400;
+  border-radius: 2px;
+  margin-left: 12px;
+}

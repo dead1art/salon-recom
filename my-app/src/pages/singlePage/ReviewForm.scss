@@ -1,33 +1,37 @@
 .formContainer {
   display: flex;
+  color: black;
   align-items: center;
   flex-direction: column;
   background: #ece3f0;
-  position: relative;
   text-align: center;
-  padding: 20px 0;
-  margin: auto;
-  border: none;
-  overflow: hidden;
+  width: 100%;
+  max-width: 450px;
+  padding: 40px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: #dee8fe 0 10px 20px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
 }
 
 .revHead {
   font-size: 25px;
-  color: black;
   padding: 15px;
   font-weight: 600;
 }
 
 .fullname {
   font-size: 15px;
-  color: black;
   padding-left: 20px;
   font-weight: 400;
 }
 
 .revDes {
   font-size: 15px;
-  color: black;
   padding-left: 20px;
   font-weight: 400;
   padding-top: 10px;
@@ -35,9 +39,11 @@
 
 .fullName {
   margin-left: 20px;
+  font-size: 14px;
   width: 330px;
   margin-right: 20px;
   background-color: #613659;
+  border-radius: 4px;
 }
 
 ::placeholder {
@@ -58,11 +64,11 @@
   font-weight: 400;
   text-decoration: none;
   font-size: 14px;
+  border-radius: 4px;
 }
 
 .starRatelabel {
   font-size: 15px;
-  color: black;
   font-weight: 400;
   padding-left: 20px;
   padding-top: 10px;
@@ -77,16 +83,19 @@
 
 .uploadImage {
   font-size: 15px;
-  color: black;
   padding-left: 20px;
   padding-top: 10px;
   font-weight: 400;
 }
 
+.uploadContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .fileUpload {
   background: #ece3f0;
   font-size: 15px;
-  color: black;
   font-weight: 400;
   font-family: "Raleway";
   padding-top: 5px;
@@ -94,12 +103,90 @@
   border: none;
 }
 
+.uploadButt {
+  font-family: "Raleway";
+  color: white;
+  font-size: 15px;
+  margin-left: 19px;
+  margin-top: 2px;
+  border: none;
+  background-color: #211522;
+  border-radius: 4px;
+}
+
+.revButCont {
+  display: flex;
+  flex-direction: row;
+}
+
 .reviewBtn {
   font-family: "Raleway";
   color: white;
   font-size: 15px;
-  width: 200px;
+  width: 163px;
   margin: 10px;
   border: none;
   background-color: #211522;
+  border-radius: 4px;
+}
+
+.cancelReview {
+  font-family: "Raleway";
+  color: black;
+  font-size: 15px;
+  width: 163px;
+  margin: 10px;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.reviewsecCont {
+  padding-left: 80px;
+  width: max-content;
+
+  @media screen and (max-width: 938px) {
+    padding-left: 30px;
+    width: auto;
+  }
+}
+
+.revCont {
+  display: flex;
+  flex-direction: row;
+}
+
+.profilePic {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.nameAndDate {
+  margin-left: 16px;
+  margin-top: 8px;
+}
+
+.profileName {
+  font-size: 17px;
+  font-weight: 500;
+  color: #3e3a3a;
+  line-height: 24px;
+}
+
+.profileDate {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgb(63, 62, 62);
+}
+
+.profileRating {
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+.profileComment {
+  padding-top: 5px;
+  padding-left: 8px;
 }

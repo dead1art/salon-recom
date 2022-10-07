@@ -1,7 +1,9 @@
 import React from "react";
 import "./Review.scss";
 import Star from "../../assets/star.png";
-import ReviewForm from "../../pages/singlePage/ReviewForm";
+import ReviewForm from "./ReviewForm";
+import ReviewSection from "./ReviewSection";
+import { Link } from "react-router-dom";
 
 const Review = () => {
   return (
@@ -24,15 +26,13 @@ const Review = () => {
             <div className="buttonHead">
               Share your thoughts with other customers
             </div>
-            <a href="ReviewForm" className="reviewForm" alt="ReviewForm">
+            <Link to={`/ReviewForm`} className="reviewForm">
               <button className="reviewButton">Write a customer Review</button>
-            </a>
+            </Link>
           </div>
         </div>
+        <ReviewSection />
       </div>
-
-      <div className="reviewSection"></div>
-      <div className="rate"></div>
     </div>
   );
 };

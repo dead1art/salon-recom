@@ -20,9 +20,6 @@ export const Navbar = () => {
         <NavLink to="/" activestyle="true">
           Home
         </NavLink>
-        <NavLink to="/DailyDeals" activestyle="true">
-          Daily Deals
-        </NavLink>
         <NavLink to="/Gallery" activestyle="true">
           Gallery
         </NavLink>

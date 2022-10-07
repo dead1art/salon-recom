@@ -20,9 +20,14 @@ const ReviewForm = () => {
         <ReviewStar />
         <label className="uploadImage">Upload Image</label>
         <ImageUpload />
-        <button className="reviewBtn" type="submit">
-          Submit review
-        </button>
+        <div className="revButCont">
+          <button className="reviewBtn" type="submit">
+            Submit review
+          </button>
+          <button className="cancelReview" type="submit">
+            Cancel
+          </button>
+        </div>
       </form>
     </div>
   );

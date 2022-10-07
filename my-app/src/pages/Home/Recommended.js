@@ -3,6 +3,7 @@ import "./Recommended.scss";
 import star from "../../assets/star.png";
 import Page from "../singlePage/Page";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export const Recommended = () => {
   const [data, setData] = useState([]);
@@ -27,11 +28,10 @@ export const Recommended = () => {
   return (
     <div className="background">
       <div className="title">Recommended</div>
-      {/* <hr className="Line2"></hr> */}
       <div className="Recommended-container">
         {data &&
           data.map((item, id) => (
-            <a href="Page" className="recomCard" key={id}>
+            <Link to={`/Page/${item.id}`} className="recomCard">
               <img className="cardImage" src={item.SalonImage} alt="/" />
               <br />
               <div className="cardTitle">{item.SalonName}</div>
@@ -40,7 +40,7 @@ export const Recommended = () => {
                 <img src={star} className="cardStar" />
                 <div className="recomRating">{item.Ratings}</div>
               </div>
-            </a>
+            </Link>
           ))}
       </div>
     </div>

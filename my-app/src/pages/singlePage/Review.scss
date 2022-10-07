@@ -1,6 +1,11 @@
 .cusReview {
-  padding-left: 55px;
-  padding-right: 55px;
+  padding-left: 80px;
+  padding-right: 80px;
+
+  @media screen and (max-width: 938px) {
+    align-content: center;
+    padding: 0;
+  }
 }
 
 .revName {
@@ -12,7 +17,13 @@
 
 .revContainer {
   display: flex;
-  flex-direction: rows;
+  padding-left: 40px;
+
+  @media screen and (max-width: 938px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .revFilter {
@@ -23,15 +34,16 @@
   -webkit-box-pack: start;
   justify-content: flex-start;
   align-items: flex-start;
-  //   widht: 370px;
-  //   height: 400px;
-  padding: 0px;
   padding: 32px;
   margin-bottom: 24px;
   border-radius: 8px;
   box-shadow: rgb(16 25 40 / 8%) 0px 4px 8px 0px;
   background: white;
   overflow: hidden;
+
+  @media screen and (max-width: 938px) {
+    box-shadow: none;
+  }
 }
 
 .rateStars {
@@ -117,7 +129,7 @@
   background: black;
   border-radius: 4px;
   padding: 20px;
-  width: 330px;
+  width: auto;
   border: none;
   margin-top: 15px;
 }
