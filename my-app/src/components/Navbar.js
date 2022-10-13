@@ -1,36 +1,64 @@
-import React from "react";
-import logo from "../assets/Logo.svg";
+import React, { useState } from "react";
+
 import {
-  Nav,
-  NavLink,
-  Bars,
-  NavMenu,
-  NavBtn,
+  NavbarContainer,
+  LeftContainer,
+  RightContainer,
+  NavbarExtendedContainer,
+  NavbarInnerContainer,
+  NavbarLinkContainer,
+  NavbarLink,
+  Logo,
+  OpenLinksButton,
+  NavbarLinkExtended,
   NavBtnLink,
-} from "./ui/NavBarMenu";
+  NavBtn,
+  NavBtnHam,
+  NavBtnLinkHam,
+  Profile,
+} from "../components/ui/NavBarMenu";
+import logo from "../assets/Logo.svg";
+import profile from "../assets/profile.png";
 
 export const Navbar = () => {
+  const [extendNavbar, setExtendNavbar] = useState(false);
+
   return (
-    <Nav>
-      <NavLink to="/">
-        <img src={logo} alt="Logo" />
-      </NavLink>
-      <Bars />
-      <NavMenu>
-        <NavLink to="/" activestyle="true">
-          Home
-        </NavLink>
-        <NavLink to="/Gallery" activestyle="true">
-          Gallery
-        </NavLink>
-        <NavLink to="/About" activestyle="true">
-          About
-        </NavLink>
-      </NavMenu>
-      <NavBtn>
-        <NavBtnLink to="/Login-SignUp">Login/Sign Up</NavBtnLink>
-      </NavBtn>
-    </Nav>
+    <NavbarContainer extendNavbar={extendNavbar}>
+      <NavbarInnerContainer>
+        <LeftContainer>
+          <NavbarLinkContainer>
+            <Logo src={logo}></Logo>
+          </NavbarLinkContainer>
+        </LeftContainer>
+        <RightContainer>
+          <NavbarLink to="/"> Home</NavbarLink>
+          <NavbarLink to="/Gallery"> Gallery</NavbarLink>
+          <NavbarLink to="/about"> About Us</NavbarLink>
+          <NavBtn>
+            <NavBtnLink to="/Login-SignUp">Login/Sign Up</NavBtnLink>
+          </NavBtn>
+          <Profile src={profile}></Profile>
+          <OpenLinksButton
+            onClick={() => {
+              setExtendNavbar((curr) => !curr);
+            }}
+          >
+            {extendNavbar ? <>&#10005;</> : <> &#8801;</>}
+          </OpenLinksButton>
+        </RightContainer>
+      </NavbarInnerContainer>
+      {extendNavbar && (
+        <NavbarExtendedContainer>
+          <NavbarLinkExtended to="/"> Home </NavbarLinkExtended>
+          <NavbarLinkExtended to="/Gallery"> Gallery </NavbarLinkExtended>
+          <NavbarLinkExtended to="/about"> About Us </NavbarLinkExtended>
+          <NavBtnHam>
+            <NavBtnLinkHam to="/Login-SignUp">Login/Sign Up</NavBtnLinkHam>
+          </NavBtnHam>
+        </NavbarExtendedContainer>
+      )}
+    </NavbarContainer>
   );
 };
 

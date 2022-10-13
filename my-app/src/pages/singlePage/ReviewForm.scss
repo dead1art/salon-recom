@@ -6,16 +6,11 @@
   background: #ece3f0;
   text-align: center;
   width: 100%;
-  max-width: 450px;
   padding: 40px;
-  border-radius: 15px;
   margin: 0 auto;
-  margin-top: 50px;
-  box-shadow: #dee8fe 0 10px 20px 5px;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-bottom: 40px;
 }
 
 .revHead {
@@ -105,6 +100,8 @@
 
 .uploadButt {
   font-family: "Raleway";
+  width: 97px;
+  height: 45px;
   color: white;
   font-size: 15px;
   margin-left: 19px;
@@ -117,6 +114,7 @@
 .revButCont {
   display: flex;
   flex-direction: row;
+  height: 75px;
 }
 
 .reviewBtn {

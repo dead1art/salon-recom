@@ -1,11 +1,11 @@
 import React from "react";
-import "./Review.scss";
-import Star from "../../assets/star.png";
-import ReviewForm from "./ReviewForm";
-import ReviewSection from "./ReviewSection";
 import { Link } from "react-router-dom";
 
-const Review = () => {
+import "./Review.scss";
+import Star from "../../assets/star.png";
+import { ReviewSection } from "./ReviewSection";
+
+export const Review = () => {
   return (
     <div className="cusReview">
       <div className="revName">Reviews</div>

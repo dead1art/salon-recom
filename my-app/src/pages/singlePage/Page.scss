@@ -73,17 +73,19 @@
   color: rgb(226, 226, 226);
   background-color: rgb(27, 26, 26);
   font-family: "Raleway", sans-serif;
-  padding-top: 11px;
+  cursor: pointer;
+  padding-top: 5px;
   font-weight: 600;
   border-radius: 5px;
+  margin-top: 20px;
 
   @media screen and (max-width: 938px) {
-    width: fit-content;
+    width: 200px;
   }
 }
 
 .Info-container {
-  padding: 80px;
+  padding: 0px 80px 0px 80px;
   display: flex;
   justify-content: center;
 
@@ -106,7 +108,7 @@
 
   @media screen and (max-width: 938px) {
     width: 100%;
-    padding: 0px 30px;
+    padding: 0px 40px;
   }
 }
 
@@ -123,12 +125,12 @@
 }
 
 .Info-location {
-  width: 50%;
-  padding: 40px 40px;
+  width: 70%;
+  padding: 42px 20px;
 
   @media screen and (max-width: 938px) {
     width: 100%;
-    padding: 20px 30px 0px;
+    padding: 20px 40px 0px;
   }
 }
 
@@ -188,10 +190,20 @@
 .Time-icon {
   width: 25px;
   height: 25px;
+  align-self: flex-start;
+  margin-top: 17px;
 }
 
 .Open-now {
   padding-left: 10px;
+  line-height: 25px;
+}
+
+.Bus-Hour {
+  padding-left: 7px;
+  font-size: 19px;
+  margin-bottom: 3px;
+  font-weight: 600;
 }
 
 .Time {

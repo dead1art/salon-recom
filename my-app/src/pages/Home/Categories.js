@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+
 import "./Categories.scss";
-import "../../../src/mixins.scss";
 import CategoriesData from "../../data/Categories-Data.json";
 
 export const Categories = () => {

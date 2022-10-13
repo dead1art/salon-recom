@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
-import "../../pages/Gallery/Gallery.scss";
-import star from "../../assets/star.png";
-import Page from "../../pages/singlePage/Page";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+
+import "../../pages/Gallery/Gallery.scss";
+import star from "../../assets/star.png";
+import Page from "../../pages/singlePage/Page";
 
 const Gallery = () => {
   const [data, setData] = useState([]);

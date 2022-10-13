@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import axios from "axios";
+
 import "./Page.scss";
 import star from "../../assets/star.png";
-import Review from "../singlePage/Review";
-import axios from "axios";
+import { Review } from "../singlePage/Review";
+
 import map from "../../assets/map.png";
 import clock from "../../assets/clock.png";
 import angle_up from "../../assets/angle_up.png";
 
-const Page = () => {
+export const Page = () => {
   const [pagedata, setpageData] = useState([]);
   const [loading, setloading] = useState(false);
   const id = useParams();
@@ -52,7 +54,9 @@ const Page = () => {
                 <img src={star} className="page-star" />
                 <div className="page-ratings">{pagedata.ratings} Great</div>
               </div>
-              <button className="book-now">Book now</button>
+              <Link to={`/BookNow`}>
+                <button className="book-now">Book now</button>
+              </Link>
             </div>
           </div>
 
@@ -75,13 +79,19 @@ const Page = () => {
 
               <hr className="Divide" />
               <div className="Timings">
-                <img className="Time-icon" src={clock} alt="#" />
+                <img className="Time-icon" src={clock} alt="Clock" />
                 <p className="Open-now">
-                  Open now
-                  <span className="Time">9:00am - 8:00pm</span>
-                  <span>
+                  <div className="Bus-Hour">Business Hours</div>
+
+                  <div className="Time">Monday: 9:00am - 8:00pm</div>
+                  <div className="Time">Tuesday: 9:00am - 8:00pm</div>
+                  <div className="Time">Wednesday: 9:00am - 8:00pm</div>
+                  <div className="Time">Thurday: 9:00am - 8:00pm</div>
+                  <div className="Time">Friday: 9:00am - 8:00pm</div>
+                  <div className="Time">Saturday: 9:00am - 8:00pm</div>
+                  {/* <span>
                     <img className="Time-accordin" src={angle_up} alt="/"></img>
-                  </span>
+                  </span> */}
                 </p>
               </div>
             </div>

@@ -10,6 +10,7 @@ import Gallery from "./components/ui/Gallery";
 import LoginSignUp from "./components/ui/Login-SignUp";
 import Page from "./pages/singlePage/Page";
 import ReviewForm from "./pages/singlePage/ReviewForm";
+import BookNow from "./pages/BookNow/BookNow";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Login-SignUp" element={<LoginSignUp />} />
           <Route path="/Page/:id" element={<Page />} />
           <Route path="/ReviewForm" element={<ReviewForm />} />
+          <Route path="/BookNow" element={<BookNow />} />
         </Routes>
         <Footer />
       </Router>

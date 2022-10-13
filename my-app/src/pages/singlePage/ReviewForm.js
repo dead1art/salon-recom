@@ -1,9 +1,10 @@
 import React from "react";
+
 import "../singlePage/ReviewForm.scss";
 import ReviewStar from "../../pages/singlePage/ReviewStar";
 import ImageUpload from "../../pages/singlePage/ImageUpload";
 
-const ReviewForm = () => {
+export const ReviewForm = () => {
   return (
     <div className="formContainer">
       <div className="revHead">Review form</div>

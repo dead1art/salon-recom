@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Rating } from "react-simple-star-rating";
+
 import "../../pages/singlePage/ReviewForm.scss";
 
 const ReviewStar = () => {

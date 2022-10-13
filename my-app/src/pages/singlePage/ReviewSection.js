@@ -1,7 +1,7 @@
 import React from "react";
 import "./../singlePage/ReviewForm.scss";
 
-const ReviewSection = () => {
+export const ReviewSection = () => {
   return (
     <ul className="reviewsecCont">
       <div className="revCont">
