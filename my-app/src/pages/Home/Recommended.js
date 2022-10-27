@@ -31,7 +31,7 @@ export const Recommended = () => {
       <div className="Recommended-container">
         {data &&
           data.map((item, id) => (
-            <Link to={`/Page/${item.id}`} className="recomCard">
+            <Link to={`/Page/${item.id}`} className="recomCard" key={item.id}>
               <img className="cardImage" src={item.SalonImage} alt="/" />
               <br />
               <div className="cardTitle">{item.SalonName}</div>

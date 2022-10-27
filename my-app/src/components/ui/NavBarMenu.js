@@ -15,7 +15,7 @@ export const NavbarContainer = styled.nav`
 `;
 
 export const LeftContainer = styled.div`
-  flex: 25%;
+  flex: 15%;
   display: flex;
   align-items: center;
   padding-left: 5%;
@@ -40,12 +40,12 @@ export const NavbarLinkContainer = styled.div`
 export const NavbarLink = styled(Link)`
   display: flex;
   color: #241f1f;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 500;
   align-items: center;
   text-decoration: none;
   padding: 0.625rem 1rem;
-  height: 94%;
+  height: 100%;
   cursor: pointer;
 
   &.active {
@@ -70,13 +70,23 @@ export const Logo = styled.img`
 `;
 
 export const Profile = styled.img`
-  margin: 20px 0px 20px 0px;
+  margin: 22px 0px 22px 0px;
   max-width: 35px;
   height: auto;
   cursor: pointer;
+  filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.5));
+  &:hover {
+    box-shadow: 0px 15px 25px -5px rgba(darken(grey, 40%));
+    transform: scale(1.03);
+  }
+
+  &:active {
+    box-shadow: 0px 4px 8px rgba(darken(grey, 30%));
+    transform: scale(0.98);
+  }
 
   @media screen and (max-width: 700px) {
-    margin: 20px 0px 20px 0px;
+    margin: 22px 0px 22px 0px;
   }
 `;
 
@@ -115,10 +125,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #d8a7a7;
-  padding: 10px 19px 10px 20px;
+  background: #db97a4;
+  padding: 10px 10px 10px 10px;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   border-radius: 23px;
   /* border: solid #C4C4C4 2px; */

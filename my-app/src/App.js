@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -11,6 +11,7 @@ import LoginSignUp from "./components/ui/Login-SignUp";
 import Page from "./pages/singlePage/Page";
 import ReviewForm from "./pages/singlePage/ReviewForm";
 import BookNow from "./pages/BookNow/BookNow";
+import { Busniess } from "./components/ui/Busniess";
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Gallery" element={<Gallery />} />
+          <Route path="/Business" element={<Busniess />} />
           <Route path="/Login-SignUp" element={<LoginSignUp />} />
           <Route path="/Page/:id" element={<Page />} />
           <Route path="/ReviewForm" element={<ReviewForm />} />

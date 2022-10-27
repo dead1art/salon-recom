@@ -63,7 +63,7 @@ const Gallery = () => {
           <div className="Gallery-container">
             {data &&
               data.map((item, id) => (
-                <Link className="Card" to={`/Page/${item.id}`}>
+                <Link className="Card" to={`/Page/${item.id}`} key={id}>
                   <img className="Card_image" src={item.salonImage} alt="/" />
                   <br />
                   <div className="Card_title">{item.name}</div>

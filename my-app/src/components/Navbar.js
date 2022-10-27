@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import {
   NavbarContainer,
@@ -32,13 +32,14 @@ export const Navbar = () => {
           </NavbarLinkContainer>
         </LeftContainer>
         <RightContainer>
-          <NavbarLink to="/"> Home</NavbarLink>
-          <NavbarLink to="/Gallery"> Gallery</NavbarLink>
-          <NavbarLink to="/about"> About Us</NavbarLink>
+          <NavbarLink to="/">Home</NavbarLink>
+          <NavbarLink to="/Gallery">Gallery</NavbarLink>
+          <NavbarLink to="/about">About Us</NavbarLink>
+          <NavbarLink to="/Business">Create Business</NavbarLink>
           <NavBtn>
             <NavBtnLink to="/Login-SignUp">Login/Sign Up</NavBtnLink>
           </NavBtn>
-          <Profile src={profile}></Profile>
+          <Profile to="#" src={profile}></Profile>
           <OpenLinksButton
             onClick={() => {
               setExtendNavbar((curr) => !curr);
@@ -50,11 +51,14 @@ export const Navbar = () => {
       </NavbarInnerContainer>
       {extendNavbar && (
         <NavbarExtendedContainer>
-          <NavbarLinkExtended to="/"> Home </NavbarLinkExtended>
-          <NavbarLinkExtended to="/Gallery"> Gallery </NavbarLinkExtended>
-          <NavbarLinkExtended to="/about"> About Us </NavbarLinkExtended>
+          <NavbarLinkExtended to="/">Home</NavbarLinkExtended>
+          <NavbarLinkExtended to="/Gallery">Gallery</NavbarLinkExtended>
+          <NavbarLinkExtended to="/about">About Us</NavbarLinkExtended>
+          <NavbarLinkExtended to="/Business">
+            Create Business
+          </NavbarLinkExtended>
           <NavBtnHam>
-            <NavBtnLinkHam to="/Login-SignUp">Login/Sign Up</NavBtnLinkHam>
+            <NavBtnLinkHam to="/Login-SignUp"> Login/Sign Up</NavBtnLinkHam>
           </NavBtnHam>
         </NavbarExtendedContainer>
       )}

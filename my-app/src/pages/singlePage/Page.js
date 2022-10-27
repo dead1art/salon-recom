@@ -80,7 +80,7 @@ export const Page = () => {
               <hr className="Divide" />
               <div className="Timings">
                 <img className="Time-icon" src={clock} alt="Clock" />
-                <p className="Open-now">
+                <div className="Open-now">
                   <div className="Bus-Hour">Business Hours</div>
 
                   <div className="Time">Monday: 9:00am - 8:00pm</div>
@@ -92,7 +92,7 @@ export const Page = () => {
                   {/* <span>
                     <img className="Time-accordin" src={angle_up} alt="/"></img>
                   </span> */}
-                </p>
+                </div>
               </div>
             </div>
           </div>

@@ -1,5 +1,3 @@
-import React from "react";
-
 import "../components/Footer.scss";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram.png";

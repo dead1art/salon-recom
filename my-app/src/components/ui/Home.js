@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Hero } from "../../pages/Home/Hero";
 import { Categories } from "../../pages/Home/Categories";
 import { Recommended } from "../../pages/Home/Recommended";
